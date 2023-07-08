@@ -1,0 +1,333 @@
+.header{
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.layer{
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+#words{
+    position: relative;
+    top: 250px;
+    
+    margin: auto;
+}
+
+.word h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.word h3::after{
+    content: "";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    
+    
+    }
+    
+    
+    @keyframes typing{
+    
+  
+0%{content:"La|";}
+5%{content:"Larr|";}
+10%{content:"Larry|";}
+15%{content:"Larry |";}
+20%{content:"Larry Da";}
+25%{content:"Larry Dani|";}
+30%{content:"Larry Danie|";}
+35%{content:"Larry Daniels|";}
+40%{content:"De|";}
+45%{content:"Dev|";}
+50%{content:"Devel|";}
+55%{content:"Develop|";}
+60%{content:"Developer|";}
+65%{content:"D|";}
+70%{content:"De|";}
+75%{content:"Des|";}
+80%{content:"Desi|";}
+85%{content:"Desig|";}
+90%{content:"Design|";}
+95%{content:"Designe|";}
+100%{content:"Designer|";}
+    
+    }
+
+    .word span{
+font-weight: 100;
+font-size: 70px;
+    }
+    .word h3{
+        font-weight: 600;
+        font-size: 70px;
+
+            }
+
+            
+.rad1{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    
+    background-color: black;
+  
+}
+
+
+
+#brand h4{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 70px;
+}
+#navbarSupportedContent{
+
+margin-right: 100px;
+}
+#spann{
+    font-weight: 900;
+}
+#h33{
+    font-weight: 800;
+}
+
+ .btn1{
+    border-radius: 5px; 
+    padding: 6px;
+    background-color: black;
+    color: white;
+    width: 150px;
+ }
+
+ .btn2{
+    border-radius: 5px; 
+    padding: 6px;
+    border: solid 1px black;
+    background-color: white;
+    width: 150px;
+ }
+
+
+ 
+ .btn1:hover{
+  
+   
+    background-color: white;
+    color: black;
+    transition: 1s;
+ }
+
+ .btnn{
+
+    margin-top: 20px;
+ }
+
+ 
+ .btn2:hover{
+  
+   
+    background-color: black;
+    color: white;
+    transition: 1s;
+ }
+
+ 
+#bord{
+    width: 5rem;
+    height: 5rem;
+    border: 20px;
+    background-color:#F7F7F7;
+   
+}
+  #log:hover i{
+color: white;
+
+  }
+
+
+
+  #log:hover #bord{
+  background-color:black;
+  transition: 1s;
+
+      }
+
+
+.captions{
+    background-color: white;
+    height: 98%;
+    position: absolute;
+opacity: 0;
+top: 1%;
+left: 1%;
+transition:opacity 0.5s;
+width: 98%;
+
+}
+
+.captionss{
+    background-color: white;
+    height: 80%;
+    position: absolute;
+opacity: 0;
+top: 1%;
+left: 1%;
+transition:transform 0.5s;
+width: 98%;
+transition: all 1s;
+}
+
+
+.inner{
+position: relative;
+
+
+}
+.inner:hover .captions{
+    opacity: 1;
+}
+
+
+.inner:hover .captionss{
+    opacity: 1;
+    transform: rotatey(360deg);
+    
+}
+
+.inner:hover.bbb img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+#bb{
+    margin-top: 150px;
+}
+
+
+.bor{
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: black;
+    color: white;
+}
+
+.bor:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.carousel-item img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    
+}
+
+
+.a1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+#fon {
+    font-weight: 900;
+  
+}
+.color{
+    background-color: rgb(84, 82, 82);
+}
+
+#loo{
+    margin-top: 200px;
+}
+
+#tit{
+    background-size: 10px 10px;
+  background-image: radial-gradient(circle, #5c5c5c1a 0.8px, rgba(0, 0, 0, 0) 0.8px);
+  width:20%;
+  
+  
+  text-align: center;
+}
+
+
+.brrd{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 40px;
+    background-color: gainsboro;
+   
+}
+.cc{
+    font-size:16px;
+
+}
+
+
+.brd:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+  
+
+  footer p{
+    color: #748182;
+  }
+
+  span{
+    font-size: 13px;
+  }
+#navv{
+    background-color: rgba(0,0 ,0 ,0.4 );
+   
+}
+
+
+.imghh:hover{
+    transform: scale(0.9);
+    transition: all 0.5s;
+    
+}
+
+.imghh{
+    
+    transition: all 0.5s;
+    
+}
+.imghh:hover .captionss{
+   height: 98.5%;
+    
+}
+
+
+.back{
+    background-size: 10px 10px;
+    background-image: radial-gradient(circle, #5c5c5c1a 0.8px, rgba(0, 0, 0, 0) 0.8px);
+    width:20%;
+    position:relative;
+    right: 10%;
+}
+#p2{
+    position: relative;
+    bottom: 475px;
+}
+
+#all:hover .brrd{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
